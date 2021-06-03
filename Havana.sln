@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{923B8F2C-6781-4306-8335-0F7D0FE11CB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Havana", "Havana\Havana.vcxproj", "{BA0F91F6-0599-4C0E-8320-6F7489EFED08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA0F91F6-0599-4C0E-8320-6F7489EFED08}.Debug|x64.ActiveCfg = Debug|x64
+		{BA0F91F6-0599-4C0E-8320-6F7489EFED08}.Debug|x64.Build.0 = Debug|x64
+		{BA0F91F6-0599-4C0E-8320-6F7489EFED08}.Release|x64.ActiveCfg = Release|x64
+		{BA0F91F6-0599-4C0E-8320-6F7489EFED08}.Release|x64.Build.0 = Release|x64
+		{923B8F2C-6781-4306-8335-0F7D0FE11CB5}.Debug|x64.ActiveCfg = Debug|x64
+		{923B8F2C-6781-4306-8335-0F7D0FE11CB5}.Debug|x64.Build.0 = Debug|x64
+		{923B8F2C-6781-4306-8335-0F7D0FE11CB5}.Release|x64.ActiveCfg = Release|x64
+		{923B8F2C-6781-4306-8335-0F7D0FE11CB5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {528E6D56-5A58-4F1B-89FD-C7B95EA6986D}
+	EndGlobalSection
+EndGlobal
