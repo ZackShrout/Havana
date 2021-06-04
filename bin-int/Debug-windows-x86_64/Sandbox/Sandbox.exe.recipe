@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>H:\dev\Havana\bin\Debug-x64\Havana\Havana.dll</FullPath>
+      <FullPath>H:\dev\Havana\bin\Debug-windows-x86_64\Havana\Havana.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>H:\dev\Havana\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>
+      <FullPath>H:\dev\Havana\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
