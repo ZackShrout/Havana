@@ -1,0 +1,3 @@
+[submodule "Havana/vendor/spdlog"]
+	path = Havana/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
