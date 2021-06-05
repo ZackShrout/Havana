@@ -4,6 +4,9 @@
     <Filter Include="Havana">
       <UniqueIdentifier>{D41AF0B6-C0BC-1A8D-A977-2EE195B8A1DD}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Havana\Events">
+      <UniqueIdentifier>{38D088AA-A490-04E1-6DCB-4D5ED94A49BD}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Havana.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Havana\EntryPoint.h">
       <Filter>Havana</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Havana\Events\ApplicationEvent.h">
+      <Filter>Havana\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Havana\Events\Event.h">
+      <Filter>Havana\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Havana\Events\KeyEvent.h">
+      <Filter>Havana\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Havana\Events\MouseEvent.h">
+      <Filter>Havana\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Havana\Log.h">
       <Filter>Havana</Filter>

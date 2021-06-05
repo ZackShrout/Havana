@@ -3,16 +3,16 @@
 
 namespace Havana
 {
-	std::shared_ptr<spdlog::logger> Log::s_CoreLogger;
-	std::shared_ptr<spdlog::logger> Log::s_ClientLogger;
+	std::shared_ptr<spdlog::logger> Log::coreLogger;
+	std::shared_ptr<spdlog::logger> Log::clientLogger;
 
 	void Log::Init()
 	{
 		spdlog::set_pattern("%^[%T] %n: %v%$");
-		s_CoreLogger = spdlog::stdout_color_mt("HAVANA");
-		s_CoreLogger->set_level(spdlog::level::trace);
+		coreLogger = spdlog::stdout_color_mt("HAVANA");
+		coreLogger->set_level(spdlog::level::trace);
 
-		s_ClientLogger = spdlog::stdout_color_mt("APP");
-		s_CoreLogger->set_level(spdlog::level::trace);
+		clientLogger = spdlog::stdout_color_mt("APP");
+		coreLogger->set_level(spdlog::level::trace);
 	}
 }
